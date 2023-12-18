@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .menu {
+    float: left;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;   
+    
+  }
+  .menuitem {
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+  }
+  
+  .opisd{
+    font-size: 19px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .main {
+    float: left;
+    width: 60%;
+    padding: 0 20px;
+    overflow: hidden; 
+  }
+  .pasek{
+    text-decoration: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: black; 
+  }
+  header{
+    margin-bottom: 2%;
+    background-color: #073273;
+
+  
+  }
+  header div{
+    display: flex;
+  }
+  header img{
+    position: relative;
+    right: 20%;
+    
+  }
+  header nav{
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  header a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.3ms;
+    margin: 7px;
+  }
+
+  header a:hover{
+    border-bottom: 2px solid white;
+    color: white;
+  }
+
+  .pasek a:hover{
+    color: black;
+    background-color: white;
+    opacity: 70%;
+  }
+
+ 
+  .btn1{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: 3ms;
+  }
+
+  .btn1:hover{
+    background-color: white;
+    color: black;
+  }
+
+  .row{
+    background-color: white;
+  }
+  
+  .rozdzielenie{
+    padding-top: 5%;
+  }
+  
+  
+  .pasek > *{
+    padding: 15px;
+    margin-left: 15%;
+  }
+  .rozdzielenie{
+    padding-top: 3%;
+  }
+  
+  header img{
+    width: 9%;
+    height: 9%;
+    margin: 0;
+    margin-left: 45%;
+  }
+  
+  .KimJ{
+    
+    margin-left: 25%;
+    padding: 0%;
+    font-size: 25px;
+    justify-content: center;
+    
+  }
+  .KimJ img{
+    width: 15%;
+    height: 15%;
+    
+  }
+  .right {
+    background-color: darkcyan;
+    color: white;
+    float: left;
+    width: 20%;
+    padding: 10px 15px;
+    margin-top: 7px;
+  }
+  .container ul li{
+        
+        padding: 5px;
+  }
+  .Kontakt{
+    font-size: 25px;
+    padding: 8%;
+    background-color: #073273;
+    color: white;
+    
+  }
+  
+  .kon a{
+    color: white !important;
+    text-decoration: none;
+    margin: 7px;
+  }
+  .pola{
+    font-size: 15px;
+  }
+  .containerJD{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+  }
+  textarea{
+    width: 35%;
+    background-color: #073273;
+    color: white;
+  }
+  input{
+    background-color: #073273;
+    color: white;
+  }
+  .btn_Wyślij{
+      width: 17.5%;
+      background-color: #073273;
+      color: white;
+  }
+  .btn_Wyczyść{
+      width: 17.5%;
+      background-color: #073273;
+      color: white;
+      
+  }
+  .Pineska{
+    margin: 5%;
+    
+    width: 90%;
+  }
+  
+
+  .zakresUslug{
+    padding: 20%;
+    background-color: #0d6efd;
+    height: 30%;
+    color: white;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .odn{
+    background-color: #073273;
+    color: white;
+    
+  }
+  .odn a{
+    text-decoration: none;
+    color: white;
+    font-size: 23px;
+    margin-left: 15%;
+    padding-top: 5%;
+  }
+  
+  
+  
+  
+ 
+  
+  @media only screen and (max-width:800px) {
+    
+    .main {
+      width: 80%;
+      padding: 0;
+    }
+    .right {
+      width: 100%;
+    }
+  }
+  @media only screen and (max-width:500px) {
+    
+    .menu, .main, .right {
+      width: 100%;
+    }
+  }
